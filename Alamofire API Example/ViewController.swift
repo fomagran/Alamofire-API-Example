@@ -43,6 +43,9 @@ class ViewController: UIViewController {
     }
     
     func getAptCodeData(n:Int) {
+        /*numOfRows로 하면 파싱이 안됐다. numofRows를 1로 두고 pageNo를 바꾸니깐 정보가 받아와짐. 컴퓨터가 터질거같지만... 어쩔수없지
+         근데 또 페일도 많이 떠서 1000개를 받아오면 880개정도? 밖에 다운이 안된다....
+        */
         let url =   URL(string: "http://apis.data.go.kr/1613000/AptListService1/getTotalAptList?serviceKey=\(OPEN_API_APTINFO_KEY)&pageNo=\(n)&numOfRows=1")!
         AF.request(url, method: .get).validate()
             .responseString { response in
