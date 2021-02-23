@@ -35,10 +35,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         
-        for i in 1...1000 {
-            getAptCodeData(n: i)
-        }
+//        for i in 1...1000 {
+//            getAptCodeData(n: i)
+//        }
         
     }
     

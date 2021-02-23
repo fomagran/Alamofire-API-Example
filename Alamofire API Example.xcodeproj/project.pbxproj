@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B1B6E725E3903C00FF941E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1B6E625E3903C00FF941E /* PostViewController.swift */; };
+		04B1B6EA25E3927800FF941E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1B6E925E3927800FF941E /* User.swift */; };
 		04F9E1D725C15DAE00E3E8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9E1D625C15DAE00E3E8C4 /* AppDelegate.swift */; };
 		04F9E1D925C15DAE00E3E8C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9E1D825C15DAE00E3E8C4 /* SceneDelegate.swift */; };
 		04F9E1DB25C15DAE00E3E8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9E1DA25C15DAE00E3E8C4 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B1B6E625E3903C00FF941E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		04B1B6E925E3927800FF941E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04F9E1D325C15DAE00E3E8C4 /* Alamofire API Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire API Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F9E1D625C15DAE00E3E8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F9E1D825C15DAE00E3E8C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				04F9E1E125C15DB000E3E8C4 /* LaunchScreen.storyboard */,
 				04F9E1E425C15DB000E3E8C4 /* Info.plist */,
 				04F9E1F125C15E8400E3E8C4 /* Constants.swift */,
+				04B1B6E625E3903C00FF941E /* PostViewController.swift */,
+				04B1B6E925E3927800FF941E /* User.swift */,
 			);
 			path = "Alamofire API Example";
 			sourceTree = "<group>";
@@ -210,8 +216,10 @@
 			files = (
 				04F9E1DB25C15DAE00E3E8C4 /* ViewController.swift in Sources */,
 				04F9E1D725C15DAE00E3E8C4 /* AppDelegate.swift in Sources */,
+				04B1B6EA25E3927800FF941E /* User.swift in Sources */,
 				04F9E1D925C15DAE00E3E8C4 /* SceneDelegate.swift in Sources */,
 				04F9E1F225C15E8400E3E8C4 /* Constants.swift in Sources */,
+				04B1B6E725E3903C00FF941E /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
