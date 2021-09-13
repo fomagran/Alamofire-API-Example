@@ -13,10 +13,10 @@ struct User :Codable{
     var account:String = ""
     var regionId:Int = 0
     
-    init() {
-        self.phoneNumber = "010-2240-6112"
+    init(phoneNumber:String,account:String) {
+        self.phoneNumber = phoneNumber
         self.email = "fomagran6@naver.com"
-        self.account = "fomagran"
+        self.account = account
         self.regionId = 1
     }
 }

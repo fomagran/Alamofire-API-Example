@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042955B226EF4B1700755EF5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042955B126EF4B1700755EF5 /* TestViewController.swift */; };
 		04B1B6E725E3903C00FF941E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1B6E625E3903C00FF941E /* PostViewController.swift */; };
 		04B1B6EA25E3927800FF941E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1B6E925E3927800FF941E /* User.swift */; };
 		04F9E1D725C15DAE00E3E8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9E1D625C15DAE00E3E8C4 /* AppDelegate.swift */; };
@@ -16,10 +17,15 @@
 		04F9E1E025C15DB000E3E8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F9E1DF25C15DB000E3E8C4 /* Assets.xcassets */; };
 		04F9E1E325C15DB000E3E8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9E1E125C15DB000E3E8C4 /* LaunchScreen.storyboard */; };
 		04F9E1F225C15E8400E3E8C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9E1F125C15E8400E3E8C4 /* Constants.swift */; };
+		04FB318625FF32170016637D /* 아파트 코드.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04FB318525FF32170016637D /* 아파트 코드.txt */; };
+		04FB318925FF33B80016637D /* 아파트 정보.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04FB318825FF33B80016637D /* 아파트 정보.txt */; };
+		04FB318D25FF4F7A0016637D /* 아파트 위도경도.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04FB318C25FF4F7A0016637D /* 아파트 위도경도.txt */; };
 		424DEFA8E44E94EF25900B82 /* Pods_Alamofire_API_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA8DBE22A1BF407F6B8E9B8 /* Pods_Alamofire_API_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042955B126EF4B1700755EF5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		046C14D225FB52DC0087FA0C /* AptDataTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AptDataTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04B1B6E625E3903C00FF941E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		04B1B6E925E3927800FF941E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04F9E1D325C15DAE00E3E8C4 /* Alamofire API Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire API Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +37,9 @@
 		04F9E1E225C15DB000E3E8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F9E1E425C15DB000E3E8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F9E1F125C15E8400E3E8C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04FB318525FF32170016637D /* 아파트 코드.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "아파트 코드.txt"; sourceTree = "<group>"; };
+		04FB318825FF33B80016637D /* 아파트 정보.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "아파트 정보.txt"; sourceTree = "<group>"; };
+		04FB318C25FF4F7A0016637D /* 아파트 위도경도.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "아파트 위도경도.txt"; sourceTree = "<group>"; };
 		26498820DFDEE36D585B6950 /* Pods-Alamofire API Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire API Example.release.xcconfig"; path = "Target Support Files/Pods-Alamofire API Example/Pods-Alamofire API Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE2F2C165B7B80BA47BBC463 /* Pods-Alamofire API Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire API Example.debug.xcconfig"; path = "Target Support Files/Pods-Alamofire API Example/Pods-Alamofire API Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EAA8DBE22A1BF407F6B8E9B8 /* Pods_Alamofire_API_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_API_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +88,11 @@
 				04F9E1F125C15E8400E3E8C4 /* Constants.swift */,
 				04B1B6E625E3903C00FF941E /* PostViewController.swift */,
 				04B1B6E925E3927800FF941E /* User.swift */,
+				04FB318525FF32170016637D /* 아파트 코드.txt */,
+				04FB318825FF33B80016637D /* 아파트 정보.txt */,
+				04FB318C25FF4F7A0016637D /* 아파트 위도경도.txt */,
+				046C14D225FB52DC0087FA0C /* AptDataTest.playground */,
+				042955B126EF4B1700755EF5 /* TestViewController.swift */,
 			);
 			path = "Alamofire API Example";
 			sourceTree = "<group>";
@@ -159,9 +173,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FB318625FF32170016637D /* 아파트 코드.txt in Resources */,
 				04F9E1E325C15DB000E3E8C4 /* LaunchScreen.storyboard in Resources */,
 				04F9E1E025C15DB000E3E8C4 /* Assets.xcassets in Resources */,
 				04F9E1DE25C15DAE00E3E8C4 /* Main.storyboard in Resources */,
+				04FB318D25FF4F7A0016637D /* 아파트 위도경도.txt in Resources */,
+				04FB318925FF33B80016637D /* 아파트 정보.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042955B226EF4B1700755EF5 /* TestViewController.swift in Sources */,
 				04F9E1DB25C15DAE00E3E8C4 /* ViewController.swift in Sources */,
 				04F9E1D725C15DAE00E3E8C4 /* AppDelegate.swift in Sources */,
 				04B1B6EA25E3927800FF941E /* User.swift in Sources */,
